@@ -32,6 +32,12 @@
         <rebuildPropChanged>false</rebuildPropChanged>
       </toolsSet>
       <compileType>
+        <ccTool>
+          <incDir>
+            <pElem>inc</pElem>
+          </incDir>
+          <commandLine>-Wno-multichar</commandLine>
+        </ccTool>
         <linkerTool>
           <output>bin/datd</output>
         </linkerTool>
